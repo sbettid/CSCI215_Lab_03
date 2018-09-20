@@ -1,5 +1,5 @@
 ## Lab 03 - Intro to Javascript
-Name: _______________________________________
+Name: Davide Sbetti
 
 ## DUE: 23 Sep 2018 @ 11:59 pm
 
