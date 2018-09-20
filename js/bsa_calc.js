@@ -33,7 +33,7 @@ function calculate() {
     // ==========================================
     // BSA calculation
 
-    BSA = Math.sqrt(heightCm * weightKg /3600);
+    BSA = Math.sqrt((heightCm * weightKg /3600));
 
     // -------------------------------
     // Ideal Body Weight (IBW)
