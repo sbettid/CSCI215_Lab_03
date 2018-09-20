@@ -18,7 +18,7 @@ function calculate() {
     // inch to cm: 1 in = 2.54 cm
 
     // ==========================================
-    // Todo: Perform conversion calculations here
+    // Conversions
 
     var weightKg = weight * 0.454;
     var heightM = height * 0.0254;
@@ -31,7 +31,7 @@ function calculate() {
     var BSA = 0;
 
     // ==========================================
-    // Todo: Perform BSA calculation here
+    // BSA calculation
 
     BSA = Math.sqrt(heightCm * weightKg /3600);
 
@@ -44,14 +44,14 @@ function calculate() {
     if ( female ) {
 
         // ==========================================
-        // Todo: Perform female IBW calculation here
+        // Female IBW calculation
 
         IBW = 45.5 + 2.3 * (height - 60);
 
     } else if ( male ) {
 
         // ==========================================
-        // Todo: Perform male IBW calculation here
+        // Male IBW calculation
 
         IBW = 50 + 2.3 * ( height - 60);
     }
@@ -63,7 +63,7 @@ function calculate() {
     var BMI = 0;
 
     // ==========================================
-    // Todo: Perform BMI calculation here
+    // BMI calculation
 
     BMI = weightKg / ( Math.pow(heightM, 2));
 
